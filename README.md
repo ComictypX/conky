@@ -9,8 +9,14 @@ This is the end result:
 ![Kali2021.2 Conky](Kali2021.2/Conky-Kali2021.2-1440-sceen.png)
 
 ## Installation:
+1. Install conky-all
+```sudo apt-get install conky-all``` 
+2. Copy conky.conf and openPorts.sh to ```/home/kali/.config/conky/```
+3. Start conky
+```conky``` 
 
-TBA
+### Optional: Autostart
+4. Copy conky.desktop to ```/home/kali/.config/autostart/```
 
 ## Alternative CPU display:
 
