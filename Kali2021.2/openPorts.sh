@@ -1,0 +1,2 @@
+#!/bin/bash
+netstat -upant 2>/dev/null | grep "tcp\|udp" | grep -v "127.0.0.1\|::1" | awk '{split($4, a, ":"); if($6 == "VERBUNDEN"||"ESTABLISHED"){a[2] = "${color7}" a[2]} else if($6 == "LISTEN"){a[2] = "${color8}" a[2]} else{a[2] = "${color9}" a[2]}; printf($1 "${goto 85}%s ${alignr}%s${color}\n", a[1], a[2]) }'

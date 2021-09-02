@@ -1,14 +1,16 @@
 # conky.conf
 
-My personal version of [Conky](https://github.com/brndnmtthws/conky) config.
+My personal fork of [kematzys Conky Config](https://github.com/kematzy/conky) for [Conky](https://github.com/brndnmtthws/conky).
 
-This configuration is for **Linux Mint MATE 19.1 (Tessa)** on a dual-screen setup of **1920 x 1080** monitors.
+This configuration is for **Kali Linux 2021.2** on a single-screen setup of **2.560 x 1.440** monitors.
 
 This is the end result:
 
 ![LinuxMint Conky](LinuxMint/Conky-LinuxMint-1080-sceen.png)
 
+## Installation:
 
+TBA
 
 ## Alternative CPU display:
 
