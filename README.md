@@ -2,17 +2,26 @@
 
 My personal fork of [kematzys Config](https://github.com/kematzy/conky) for [Conky](https://github.com/brndnmtthws/conky).
 
-This configuration is for **Kali Linux 2021.2** on a single-screen setup of a **2.560 x 1.440** monitor.
+This configuration is for **Kali Linux 2021.2** tested on a single-screen setup of a **2.560 x 1.440** monitor.
+
+### Added Features
+
+I really liked kematzys Design and wanted to use Conky to show information which are useful while Pentesting.
+So I added these main features:
+
+1. Dynamic network interfaces: Show interfaces which are enabled. Actually monitored: eth0. wlan0, usb0 and tun0 (inspired by [Matthias A. Lee](https://matthiaslee.com/dynamically-changing-conky-network-interface/))
+2. Show open Ports (netstat). Port status is color coded: ESTABLISHED = green, LISTEN = yellow, Everything else = red
+3. Show state of the entropy-pool
 
 This is the end result:
 
 ![Kali2021.2 Conky](Kali2021.2/Conky-Kali2021.2-1440-sceen.png)
 
 ## Installation:
-1. Install conky-all
+1. Install conky-all:
 ```sudo apt-get install conky-all``` 
 2. Copy conky.conf and openPorts.sh to ```/home/kali/.config/conky/```
-3. Start conky
+3. Start conky:
 ```conky``` 
 
 ### Optional: Autostart
