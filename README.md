@@ -1,12 +1,12 @@
 # conky.conf
 
-My personal fork of [kematzys Conky Config](https://github.com/kematzy/conky) for [Conky](https://github.com/brndnmtthws/conky).
+My personal fork of [kematzys Config](https://github.com/kematzy/conky) for [Conky](https://github.com/brndnmtthws/conky).
 
 This configuration is for **Kali Linux 2021.2** on a single-screen setup of **2.560 x 1.440** monitors.
 
 This is the end result:
 
-![LinuxMint Conky](LinuxMint/Conky-LinuxMint-1080-sceen.png)
+![Kali2021.2 Conky](Kali2021.2/Conky-Kali2021.2-1440-sceen.png)
 
 ## Installation:
 
@@ -16,7 +16,7 @@ TBA
 
 My design have limited space for the CPU display, but if you have the space this alternative design may suit you better:
 
-![Conky alternative CPU display](LinuxMint/Conky-LinuxMint-CPUs-alternative.png)
+![Conky alternative CPU display](Kali2021.2/Conky-Kali2021.2-CPUs-alternative.png)
 
 To implement this design, just copy the code below:
 
