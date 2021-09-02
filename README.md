@@ -2,7 +2,7 @@
 
 My personal fork of [kematzys Config](https://github.com/kematzy/conky) for [Conky](https://github.com/brndnmtthws/conky).
 
-This configuration is for **Kali Linux 2021.2** on a single-screen setup of **2.560 x 1.440** monitors.
+This configuration is for **Kali Linux 2021.2** on a single-screen setup of a **2.560 x 1.440** monitor.
 
 This is the end result:
 
